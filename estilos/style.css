@@ -49,3 +49,13 @@ section#login > div#img{
     display: block;
     padding: 10px;
 }
+
+div#form > h1{
+    text-align: center;  
+    margin: 10px;
+}
+
+div#form > p{
+    text-align: center;
+    font-size: 0.9em;
+}

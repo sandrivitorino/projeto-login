@@ -33,19 +33,35 @@
 
 @media screen and (min-width: 1024px) {
     body{
-        background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(63, 63, 62));
+         background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(63, 63, 62));
     }
     section#login {
         width: 90vw ;
-        display: flex;
+        
     }
 
     section#login > div#img{
-        width: 40%;
+        float: right;
+        width: 50%;
         height: 100%;
        
     }
+
+    section#login > div#form{
+        float: left;
+        width: 50%;
+    }
+
+    div#form > h1{
+        font-size: 2em;
+    }
+    
+    div#form > p{
+        text-align: center;
+        font-size: 1.2em;
+    }
 }
+
 
    
 
