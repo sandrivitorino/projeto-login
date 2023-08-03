@@ -45,8 +45,10 @@ section#login > div#img{
 }
 
 #login > #form{
-    width: 50vw ;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 10px;
 }
 
@@ -84,11 +86,13 @@ div.campo > input{
     padding: 4px;
     outline: none;
     transform: translateY(-9px);
-    border: none;
     
 }
 
 form > input[type=submit]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1em;
     font-weight: normal;
     width: 100%;
