@@ -27,19 +27,7 @@
         
     }
     #login > div#form{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 60vw;
-    }
-    form > input[type=submit]{
-        width: 100%;
-    }
-
-    form > a.botao{
-        width: 100%;
-        
+        width: 60%;
     }
     }
 
@@ -65,7 +53,6 @@
     section#login > div#form{
         float: left;
         width: 50%;
-        margin-top: 100px;
     }
 
     div#form > h1{
@@ -76,20 +63,8 @@
         text-align: center;
         font-size: 1.2em;
     }
-
-    form > input[type=submit]{
-        width: 35%;
-
-}
-    form > a.botao{
-    width: 35%;
-    margin: auto;
-    margin-top: 5px;
-
-    
 }
 
 
    
 
-}
